@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    border-top: 3px solid #0077DD;
+    font-family: sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    height: 10vh;
+    /* background: grey; */
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    opacity: .9;
+    text-decoration: none;
+    color: #000;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+button {
+    border-radius: 3px;
+    color: #fff;
+    background: #F48024; 
+    border: 2px solid rgba(240, 108, 20, 0.856);
+    opacity: .9;
+}
+
+a:hover, button:hover {
+    opacity: .8;
+}
+
+.title__div {
+    display: flex;
+    align-items: top;
+    /* background: red; */
+    width: 40%;
+    height: 60%;
+    justify-content: space-around;
+}
+
+.title__div input {
+    border: 1px solid #ADB3B9;
+    border-radius: 3px;
+    padding: 7px;
+    width: 50%;
+    font-size: 17px;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    /* background: green */
+}
+
+.logo img {
+    height: 40px;
+    width: 20%;
+}
+
+#main__title {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 70%;
+    /* background: blue; */
+}
+
+.form__details {
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    width: 37%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.form__details form {
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__details input {
+    border: 1px solid #ADB3B9;
+    border-radius: 3px;
+    padding: 7px;
+    width: 33%;
+    font-size: 17px;
+}
+
+.form__details form button {
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 15%;
+    color: #fff;
+    background: #F48024; 
+    border: 2px solid rgba(240, 108, 20, 0.747);
+}
+
+.form__details label {
+    font-size: 20px;
+}
+
+.form__details a {
+    color: #0077DD;
+}
+
+.top__questions {
+    display: flex;
+    justify-content: center;
+}
+
+.questions {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    /* padding-left: 10px; */
+    /* background: red; */
+}
+
+.sub__header {
+}
+
+.about {
+    border-left: 5px solid #32AEFF;
+    padding: 10px 5px 10px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    /* background: red; */
+}
+
+.top-questions {
+    padding: 10px 5px 10px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.questions button {
+    font-size: 16px;
+    padding: 10px;
+}
+
+footer {
+    background: #242729;
+    /* margin-top: 50px; */
+    margin-bottom: 0;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
